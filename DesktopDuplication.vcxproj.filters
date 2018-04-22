@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="PixelShader.hlsl" />
+    <FxCompile Include="VertexShader.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DesktopDuplication.cpp" />
+    <ClCompile Include="DisplayManager.cpp" />
+    <ClCompile Include="DuplicationManager.cpp" />
+    <ClCompile Include="OutputManager.cpp" />
+    <ClCompile Include="ThreadManager.cpp" />
+    <ClCompile Include="CsrLog.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommonTypes.h" />
+    <ClInclude Include="DisplayManager.h" />
+    <ClInclude Include="DuplicationManager.h" />
+    <ClInclude Include="OutputManager.h" />
+    <ClInclude Include="ThreadManager.h" />
+    <ClInclude Include="TimeStramp.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="CsrLog.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{65368195-359d-44d7-86b5-7ecdbdd7e5b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
