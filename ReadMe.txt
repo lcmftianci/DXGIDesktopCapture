@@ -1,0 +1,3 @@
+DXGIDesktopCapture
+
+微软官方的通过DXGI技术截屏的例子
